@@ -1,12 +1,10 @@
-package erença.material;
+package erença.ex6;
 
-public abstract class Produto {
-    protected  String marca;
-    protected String modelo;
+public class PlacaMae {
+    private String marca;
+    private String modelo;
 
-
-
-    public Produto(String marca, String modelo) {
+    public PlacaMae(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
     }
@@ -29,11 +27,9 @@ public abstract class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "PlacaMae{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
                 '}';
     }
-
 }
-
